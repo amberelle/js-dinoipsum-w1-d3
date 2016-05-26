@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="build/css/styles.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Dino-App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="word">
+        <h1>Dino Flashcard Game!</h1>
+
+        <button class="btn-success" id="getDino">Get a Dino to spell</button>
+        <br>
+        <div class="showDino"></div>
+        <input id="showdino" type="hidden">
+        <br>
+        <button class="btn-success" id="spellDino">Spell your Dino here</button>
+      </div>
+
+      <form id="solve" class="myhidden">
+        <h1>You Get three tries to spell the word correctly!</h1>
+
+        <label for="dinoInput">Enter word here:</label>
+        <input id="dinoInput" type="text">
+        <br>
+        <button class="btn-success" id="solveDino" type="submit">Check Spelling here</button>
+      </form>
+        <div class="incorrectDino myhidden">Incorrect Dino</div>
+        <div class="youLoose myhidden">You Lost</div>
+        <div class="correctDino myhidden">Correct!!!</div>
+
+    </div>
+  </body>
+</html>

@@ -1,13 +1,31 @@
-$gray : #d3d3d3;
+// $gray : #d3d3d3;
+//
+// .box {
+//   background: $gray;
+//   border: 3px solid black;
+//   padding: 40px 80px;
+//   .button {
+//     font-weight: bold;
+//     text-align: center;
+//     background: red;
+//     color: white;
+//   }
+// }
+//
+// /* Rectangle 2: */
+// background: #AEF5AE;
+// box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.50);
+//
+//
+// /* yellow-cartoon-dinosaur-hi: */
+//
+//
+// /* Getsum: */
+// font-family: AppleGothic;
+// font-size: 100px;
+// color: #000000;
+// text-shadow: 0px 9px 4px rgba(0,0,0,0.50);
 
-.box {
-  background: $gray;
-  border: 3px solid black;
-  padding: 40px 80px;
-  .button {
-    font-weight: bold;
-    text-align: center;
-    background: red;
-    color: white;
-  }
+.myhidden {
+  display:none;
 }
