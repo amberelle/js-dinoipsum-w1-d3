@@ -8,10 +8,7 @@ exports.dinoFlash = function() {
 
 exports.dinoSolve = function(dinoInput, counter, showDino) {
   showDino = showDino.substring(0, showDino.length - 1);
-  console.log(dinoInput.length);
-  console.log(counter);
-  console.log(showDino.length);
-  console.log(Object.is(dinoInput, showDino));
+
   if(dinoInput === showDino) {
     $('.correctDino').show();
   }else if(counter >= 3){

@@ -1,31 +1,68 @@
-// $gray : #d3d3d3;
-//
-// .box {
-//   background: $gray;
-//   border: 3px solid black;
-//   padding: 40px 80px;
-//   .button {
-//     font-weight: bold;
-//     text-align: center;
-//     background: red;
-//     color: white;
-//   }
-// }
-//
-// /* Rectangle 2: */
-// background: #AEF5AE;
-// box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.50);
-//
-//
-// /* yellow-cartoon-dinosaur-hi: */
-//
-//
-// /* Getsum: */
-// font-family: AppleGothic;
-// font-size: 100px;
-// color: #000000;
-// text-shadow: 0px 9px 4px rgba(0,0,0,0.50);
+
 
 .myhidden {
   display:none;
+}
+
+.header-box {
+  /* Rectangle 2: */
+background: #AEF5AE;
+box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.50);
+}
+
+h1 {
+  /* Get sum: */
+font-family: AppleGothic;
+font-size: 100px;
+color: #000000;
+text-shadow: 0px 9px 4px rgba(0,0,0,0.50);
+text-align: left;
+}
+
+img {
+
+}
+#centerme1 {
+  text-align: center;
+}
+
+
+p {
+  /* Type something: */
+font-family: AppleGothic;
+font-size: 48px;
+color: #000000;
+text-align: center;
+margin-top: 30px;
+}
+
+#get {
+  /* Rectangle 2: */
+background: #AEF5AE;
+box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+padding-top: 6px;
+
+}
+button {
+  margin-top: 10px;
+}
+
+#header {
+  text-align: center;
+}
+
+h3 {
+  font-family: AppleGothic;
+  font-size: 40px;
+  color: #000000;
+}
+
+
+#outcome {
+  font-family: AppleGothic;
+  font-size: 40px;
+  color: #000000;
+}
+#getcentered {
+  text-align:center;
 }

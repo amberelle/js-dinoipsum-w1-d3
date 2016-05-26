@@ -8,30 +8,34 @@
     <title>Dino-App</title>
   </head>
   <body>
-    <div class="container">
-      <div id="word">
-        <h1>Dino Flashcard Game!</h1>
 
-        <button class="btn-success" id="getDino">Get a Dino to spell</button>
-        <br>
-        <div class="showDino"></div>
-        <input id="showdino" type="hidden">
-        <br>
-        <button class="btn-success" id="spellDino">Spell your Dino here</button>
-      </div>
-
-      <form id="solve" class="myhidden">
-        <h1>You Get three tries to spell the word correctly!</h1>
-
-        <label for="dinoInput">Enter word here:</label>
-        <input id="dinoInput" type="text">
-        <br>
-        <button class="btn-success" id="solveDino" type="submit">Check Spelling here</button>
-      </form>
-        <div class="incorrectDino myhidden">Incorrect Dino</div>
-        <div class="youLoose myhidden">You Lost</div>
-        <div class="correctDino myhidden">Correct!!!</div>
-
+    <div class="header-box">
+        <h1 id="header">Dino Flashcard Game!</h1>
     </div>
+    <div class="container">
+    <div id="word">
+      <button class="btn-success" id="getDino">Get a Dino to spell</button>
+      <br>
+      <div class="showDino"></div>
+      <input id="showdino" type="hidden">
+      <br>
+
+      <button class="btn-success" id="spellDino">Spell your Dino here</button>
+    </div>
+
+
+    <form id="solve" class="myhidden">
+      <h3>You Get three tries to spell the word correctly</h3>
+
+      <label for="dinoInput">Enter word here:</label>
+      <input id="dinoInput" type="text">
+      <br>
+      <button class="btn-success" id="solveDino" type="submit">Check Spelling here</button>
+    </form>
+    <div class="incorrectDino myhidden" id="outcome">Incorrect Dino</div>
+    <div class="youLoose myhidden" id="outcome">You Lost</div>
+    <div class="correctDino myhidden" id="outcome">Correct!!!</div>
+
+  </div>
   </body>
 </html>
